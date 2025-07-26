@@ -1,7 +1,6 @@
 # 🚀 Custom Golden AMI Creation with Packer & GitHub Actions
 
-[![Build Status](https://github.com/yourusername/custom-ami-packer/workflows/Build%20AMI/badge.svg)](https://github.com/yourusername/custom-ami-packer/actions)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Build Status](https://github.com/maheshnfunde2000/aws-golden-ami-automation/workflows/Build%20AMI/badge.svg)](https://github.com/maheshnfunde2000/aws-golden-ami-automation/actions)
 [![AWS](https://img.shields.io/badge/AWS-EC2-orange.svg)](https://aws.amazon.com/ec2/)
 [![Packer](https://img.shields.io/badge/Packer-v1.9+-blue.svg)](https://www.packer.io/)
 
@@ -30,7 +29,7 @@ This project demonstrates how to create **Golden AMIs** (Amazon Machine Images) 
 - **Cost Optimization** through reusable images
 
 ### 🎬 Demo & Tutorial
-- 📹 **Video Tutorial**: 
+- 📹 **Video Tutorial**: [Watch on YouTube](your-youtube-link)
 - 🖼️ **Screenshots**: Available in `/docs/screenshots/`
 
 ## 🏗️ Architecture
@@ -138,7 +137,7 @@ Your IAM user/role needs the following permissions:
 ## 📁 Project Structure
 
 ```
-custom-ami-packer/
+aws-golden-ami-automation/
 ├── .github/
 │   └── workflows/
 │       └── build-ami.yml          # GitHub Actions workflow
@@ -169,8 +168,8 @@ Follow these steps to create your Golden AMI manually using Packer on your local
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/custom-ami-packer.git
-cd custom-ami-packer
+git clone https://github.com/maheshnfunde2000/aws-golden-ami-automation.git
+cd aws-golden-ami-automation
 
 # Install Packer (if not already installed)
 # For macOS
@@ -282,8 +281,8 @@ Set up automated AMI creation using GitHub Actions for continuous integration an
 
 ```bash
 # Fork the repository on GitHub or clone it
-git clone https://github.com/yourusername/custom-ami-packer.git
-cd custom-ami-packer
+git clone https://github.com/maheshnfunde2000/aws-golden-ami-automation.git
+cd aws-golden-ami-automation
 ```
 
 ### Step 2: AWS IAM Setup for CI/CD
@@ -740,8 +739,19 @@ packer inspect ubuntu-golden.pkr.hcl
 3. Use spot instances for building (not recommended for production)
 4. Optimize provisioning scripts for faster execution
 
+## 🤝 Contributing
 
-### Best practices 
+We welcome contributions! Please follow these steps:
+
+1. **Fork** the repository
+2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
+3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
+4. **Push** to the branch (`git push origin feature/amazing-feature`)
+5. **Open** a Pull Request
+
+
+
+### Best practices
 - Follow shell script best practices
 - Test changes locally before submitting PR
 - Update documentation for new features
@@ -755,3 +765,6 @@ packer inspect ubuntu-golden.pkr.hcl
 - [AWS](https://aws.amazon.com/) for cloud infrastructure
 - Community contributors and feedback
 
+
+
+🔗 **Connect with me**: [LinkedIn](https://linkedin.com/in/mahesh-funde) | [GitHub](https://github.com/maheshnfunde2000)
