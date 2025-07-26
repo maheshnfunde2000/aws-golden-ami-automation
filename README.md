@@ -1,10 +1,9 @@
-# 🚀 Custom Golden AMI Creation with Packer & GitHub Actions
+#  Custom Golden AMI Creation with Packer & GitHub Actions
 
-[![Build Status](https://github.com/maheshnfunde2000/aws-golden-ami-automation/workflows/Build%20AMI/badge.svg)](https://github.com/maheshnfunde2000/aws-golden-ami-automation/actions)
 [![AWS](https://img.shields.io/badge/AWS-EC2-orange.svg)](https://aws.amazon.com/ec2/)
 [![Packer](https://img.shields.io/badge/Packer-v1.9+-blue.svg)](https://www.packer.io/)
 
-## 📋 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Architecture](#architecture)
 - [Prerequisites](#prerequisites)
@@ -16,11 +15,11 @@
 - [Customization](#customization)
 - [Troubleshooting](#troubleshooting)
 
-## 🎯 Overview
+## Overview
 
 This project demonstrates how to create **Golden AMIs** (Amazon Machine Images) using HashiCorp Packer with automated CI/CD pipelines via GitHub Actions. Golden AMIs are pre-configured, hardened, and optimized base images that serve as standardized templates for launching EC2 instances across your infrastructure.
 
-### 🌟 Key Features
+### Key Features
 - **Automated AMI Creation** with Packer
 - **CI/CD Integration** using GitHub Actions
 - **Multi-Environment Support** (Dev, Staging, Production)
@@ -738,16 +737,6 @@ packer inspect ubuntu-golden.pkr.hcl
 2. Delete old AMIs and snapshots regularly
 3. Use spot instances for building (not recommended for production)
 4. Optimize provisioning scripts for faster execution
-
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
 
 
 
